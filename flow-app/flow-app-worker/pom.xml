@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>cn.jimmy.opensource.flow</groupId>
+    <artifactId>flow-app</artifactId>
+    <version>${product.version}</version>
+  </parent>
+  <artifactId>flow-app-worker</artifactId>
+  <packaging>pom</packaging>
+  <name>flow-app-worker</name>
+  <description>flow-app-worker</description>
+  <modules>
+  	<module>flow-app-worker-api</module>
+  	<module>flow-app-worker-rest</module>
+  	<module>flow-app-worker-core</module>
+  	<module>flow-app-worker-application</module>
+  	<module>flow-app-worker-communication</module>
+  </modules>
+</project>

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.jimmy.opensource.flow</groupId>
+		<artifactId>flow-app-manager</artifactId>
+		<version>${product.version}</version>
+	</parent>
+	<artifactId>flow-app-manager-api</artifactId>
+	<name>flow-app-manager-api</name>
+	<description>flow-app-manager-api</description>
+	<dependencies>
+		<dependency>
+			<groupId>cn.jimmy.opensource.flow</groupId>
+			<artifactId>flow-common-api</artifactId>
+		</dependency>
+	</dependencies>
+</project>
